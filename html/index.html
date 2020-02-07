@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>首页</title>
+    </head>
+    <!-- 下面的frameset标签不能与body标签一起使用，详情参看上面的链接 -->
+    <frameset rows="10%,*" frameborder="1" border="1" noresize="1"><!-- rows表示水平切割，20%表示top页占整个页面的20%，*表示其余的占80% -->
+        <frame name="top" src="top.html"/>
+        <frameset cols="10%,*"><!-- cols表示垂直切割-->
+            <frame name="left" src="left.html"/>
+            <frame name="right" src="right.html"/>
+        </frameset>
+    </frameset>
+</html>
